@@ -38,6 +38,7 @@ The Currency Converter is a responsive web application built with HTML, CSS, and
 No server or API key is required.
 
 ## Preview
+<img src="Picture1.png" alt="Currency Converter Screenshot" width="500">   <img src="Picture2.png" alt="Currency Converter Screenshot" width="500">
 
 ## 📂 Project Structure
 ```bash
