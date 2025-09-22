@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-image:url('back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    background-color:rgb(58, 61, 118);
+    padding:2rem;
+    border-radius:1rem;
+    min-height:45vh;
+    width:40vh;
+    box-shadow: 20px 15px rgb(0, 0, 0);
+}
+
+form{
+    margin:2rem;
+}
+form select,button,input{
+    width:100%;
+    border-radius: 0.5rem;
+    border:none;
+    outline:none;
+}
+
+
+form input{
+    padding:0.5rem;
+    margin:1rem 0rem;
+    font-size:1rem;
+    height:2rem;
+}
+
+.dropdown{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2rem;
+} 
+.dropdown i{
+    font-size:2rem;
+    margin-top:1rem;
+}
+#swap-btn{
+    background-color:transparent;
+    color:black;
+    padding:5px;
+}
+.select-container img{
+    max-width:3rem;
+    padding:2px;
+}
+.select-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:6rem;
+    border-radius:0.5rem;
+    border:1px solid bisque;
+    padding:4px;
+}
+
+.select-container select{
+    font-size:1rem;
+    background-color:transparent;
+    width:auto;
+}
+.msg{
+    margin:2rem 0 2rem 0;
+    display:flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size:1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:1px solid black;
+    padding: 0.1rem;
+}
+
+form button{
+    background-color:rgb(5, 113, 48);
+    color:#fff;
+    cursor:pointer;
+    font-weight:600;
+    height:3rem;
+    font-size: 1.15rem;
+}
+
