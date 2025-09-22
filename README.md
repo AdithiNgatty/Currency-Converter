@@ -37,6 +37,8 @@ The Currency Converter is a responsive web application built with HTML, CSS, and
 3.Enter an amount, select currencies, and click **Convert**.
 No server or API key is required.
 
+## Preview
+
 ## 📂 Project Structure
 ```bash
 currency-converter/
